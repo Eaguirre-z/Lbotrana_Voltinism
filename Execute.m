@@ -104,10 +104,10 @@ Hpoc_vr = double([t_vr',Hpoc_Vrn']);
 %% Mathematical model simulation
 
 % Model simulation by seasons
-run VoltinismoLb_Invierno_p2.m
-run VoltinismoLb_Primavera_p2.m
-run VoltinismoLb_Verano_p2.m
-run VoltinismoLb_Otono_p2.m
+run VoltinismLb_winter.m
+run VoltinismLb_spring.m
+run VoltinismLb_summer.m
+run VoltinismLb_autumn.m
 
 %% Pre-processing of simulation data for graphing
 
